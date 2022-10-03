@@ -18,3 +18,19 @@
     text-decoration: none;
     margin-left: 10px;
 }
+
+/*Hero İmage*/
+
+.hero-image{
+    background-image: url('img/banner.jpg'); 
+    height: 600px; 
+    text-align: center; 
+    position: relative;
+    width: 100%;
+}
+.hero-text{
+    position: absolute;
+    top:50px;
+    left: 50px;
+    color: rgb(203, 203, 203);
+}
