@@ -151,5 +151,21 @@ form input[type=submit]{
         display: flex;
         flex-direction: column;
     }
+    .card{
+        flex-direction: column;
+       
+    }
+    .card div {
+        width: 90%;
+        margin: 20px auto;
+    }
+    form{
+
+        width: 100%;
+
+    }
+    form .form{
+        width: 100%;
+    }
 }
 
