@@ -14,6 +14,10 @@
     padding: 0 25px;
 }
 
+.mobileImg {
+    display: none;
+}
+
 .headerLink {
     text-decoration: none;
     margin-left: 10px;
@@ -126,5 +130,26 @@ form input[type=submit]{
     margin-top: 10px;
 }
 
+@media screen and (max-width: 600px) {
+    .mobileLinkContent{
+        display: none;
+    }
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .headerImg {
+        display: none;
+    }
 
+    .mobileImg {
+        display: block;
+    }
+
+    .mobileLink {
+        display: flex;
+        flex-direction: column;
+    }
+}
 

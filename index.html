@@ -10,13 +10,18 @@
 </head>
 <body>
     <div class="header">
-        <div>
-            <img src="/img/logo.png" alt="">
+        <div onclick="toogle()" class="mobileImg">
+            <img src="/img/icon.png"  alt="">
         </div>
         <div>
-            <a class="headerLink" href="#">Home</a>
-            <a class="headerLink" href="#">About</a>
-            <a class="headerLink" href="#">Contact</a>
+            <img class="headerImg" src="/img/logo.png" alt="">
+        </div>
+        <div id="navDiv" class="mobileLinkContent">
+            <div class="mıbileLink">
+                <a class="headerLink" href="#">Home</a>
+                <a class="headerLink" href="#">About</a>
+                <a class="headerLink" href="#">Contact</a>
+            </div>
         </div>
     </div>
 
@@ -88,7 +93,16 @@
     </div>
 
 
-
+    <script>
+        function toogle() {
+            let x = document.getElementById("navDiv");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
 
 </body>
 </html>
